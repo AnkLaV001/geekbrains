@@ -8,7 +8,7 @@ public class Lesson1 {
         int a1 = 2;
         int b1 = 2;
         int c1 = 3;
-        int d1 = 4;
+        float d1 = 4;
         task1(a1, b1, c1, d1);
         System.out.println(task1(a1, b1, c1, d1));
 
@@ -18,11 +18,13 @@ public class Lesson1 {
         // и проверяющий что их сумма лежит в пределах от 10 до 20(включительно),
         // если да – вернуть true, в противном случае – false;
         int a2 = 2;
-        int b2 = 8;
-        task2(a2, b2);
-        if (task2(a2, b2) <= 10){
+        int b2 = 9;
+        int c2;
+        c2 = a2 + b2;
+        //task2(a2, b2);
+        if (c2 <= 10){
             System.out.println("FALSE");
-        } else if (task2(a2, b2) >= 20){
+        } else if (c2 >= 20){
             System.out.println("FALSE");
         } else {
             System.out.println("TRUE");
@@ -81,17 +83,17 @@ public class Lesson1 {
 
 
 
-    public static float task1(int a1, int b1, int c1, int d1){
+    public static float task1(int a1, int b1, int c1, float d1){
 
         return a1 * (b1 + (c1 / d1));
     }
 
 
 
-    public static int task2(int a2, int b2){
-        int c2;
-        c2 = a2 + b2;
-        return c2;
-    }
+    //public static int task2(int a2, int b2){
+        //int c2;
+       // c2 = a2 + b2;
+        //return c2;
+    //}
 
 }
