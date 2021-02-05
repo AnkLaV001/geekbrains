@@ -36,7 +36,7 @@ public class Lesson2 {
 //         Создать квадратный целочисленный массив
 //         (количество строк и столбцов одинаковое),
 //         заполнить его диагональные элементы единицами, используя цикл(ы)
-        int[][] array5 = new int[5][5];
+        String [][] array5 = new String[5][5];
         task5(array5);
         System.out.println();
 
@@ -46,14 +46,15 @@ public class Lesson2 {
 //         при этом метод должен циклически сместить все элементы массива на n позиций.
 //         [1,2,3,4,5], -2 => [3,4,5,1,2]
 //         [1,2,3,4,5], 2 => [4,5,1,2,3]
-        int[][] array5 = new int[5][5];
-        task5(array5);
+        int[] array6 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        int a6 = -1;
+        task6(array6, a6);
         System.out.println();
 
         System.out.println("Задание 7");
 //         Не пользоваться вспомогательным массивом при решении задачи 6
-        int[][] array5 = new int[5][5];
-        task5(array5);
+//        int[][] array5 = new int[5][5];
+//        task5(array5);
         System.out.println();
 
     }
@@ -103,15 +104,38 @@ public class Lesson2 {
         System.out.println("Число: " + b4 + " самое наименьшее");
     }
 
-    public static void task5(int[][] array5) {
+    public static void task5(String [][] array5) {
+        String x = "X";
+        int a = array5.length;
         for (int i = 0; i < array5.length; i++) {
+            System.out.println();
             for (int j = 0; j < array5.length; j++) {
-                array5[i][j] = i+j;
-                System.out.println(array5[i][j]);
+                if(i==0 || i==a){
+                    array5[i][j] = ".";
+                    array5[i][0] = x;
+                    array5[i][a] = x;
+                    System.out.print(array5[i][j]);
+                }else if(i==1 || i==3){
+                    array5[i][j] = ".";
+                    array5[i][1] = x;
+                    array5[i][3] = x;
+                    System.out.print(array5[i][j]);
+                }else if(i==2){
+                    array5[i][j] = ".";
+                    array5[i][2] = x;
+                    System.out.print(array5[i][j]);                }
             }
 
 
             }
+        }
+        public static void task6(int[] array6, int a6){
+        int b6;
+        if(a6<0){
+            for (int i = 0; i < array6.length; i++) {
+
+            }
+        }
         }
     }
 
