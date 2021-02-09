@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3986b16a-4750-4498-a040-fc9b5db941c2" name="Default Changelist" comment="Сделал 4-ре уражнения">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/src/Lesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/src/Lesson2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson1/src/Lesson3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Lesson1/src/Lesson3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.Lesson2">
+  <component name="RunManager" selected="Application.Lesson3">
     <configuration name="Lesson1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson1" />
       <module name="geekbrains.git" />
@@ -55,8 +55,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Lesson3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lesson3" />
+      <module name="geekbrains.git" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Lesson3" />
         <item itemvalue="Application.Lesson2" />
         <item itemvalue="Application.Lesson1" />
       </list>
@@ -71,6 +79,14 @@
       <option name="presentableId" value="Default" />
       <updated>1612107894467</updated>
     </task>
+    <task id="LOCAL-00001" summary="Начал ДЗ3">
+      <created>1612816830720</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612816830720</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -78,12 +94,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="Lesson3" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Начал ДЗ3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Начал ДЗ3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
