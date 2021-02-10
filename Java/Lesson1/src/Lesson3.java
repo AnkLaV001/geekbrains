@@ -50,15 +50,22 @@ public class Lesson3 {
         int x;
         int y;
         do{
-//            System.out.println("Введите позицию куда поставить фишку:");
-//            x = scanner.nextInt() - 1;
-//            y = scanner.nextInt() - 1;
-            if(){
+            for (int y = 0; y < sizeMapY; y++) {
+                for (int x = 0; x < sizeMapX; x++) {
+                    if(checkEmptyPlace(y,x)){
+                        map[y][x] = player2;
+                        if(checkWin(player2)){
+                            map[y][x] = player2;
+                        }else {
+                            map[y][x] = emptyPlace;
+                        }
+                    }
 
+                }
             }
             x = random.nextInt(sizeMapX);
             y = random.nextInt(sizeMapY);
-        }   while (!checkEmptyPlace(y,x));
+        }   while (!checkEmptyPlace(y, x));
         map[y][x] = player2;
     }
 
@@ -68,14 +75,26 @@ public class Lesson3 {
     public static boolean checkEmptyPlace(int x, int y){
         return map[y][x] == emptyPlace;
     }
-    public static boolean checkOpponentWin(char anotherPlayer){
-        for (int y = 0; y < sizeMapY; y++) {
-            for (int x = 0; x < sizeMapX; x++) {
-                if(map[y][x] = anotherPlayer && checkWin(anotherPlayer))
-            }
-
-        }
-    }
+//    public static int checkOwnWin(){
+////        for (int y = 0; y < sizeMapY; y++) {
+////            for (int x = 0; x < sizeMapX; x++) {
+////                if(checkEmptyPlace(y,x)){
+////                    map[y][x] = player2;
+////                    if(checkWin(player2)){
+////                        return map[y][x];
+////                    }else {
+////                        map[y][x] = emptyPlace;
+////                    }
+////                    }
+////
+////                }
+////            }
+////        int x;
+////        int y;
+////        x = random.nextInt(sizeMapX);
+////        y = random.nextInt(sizeMapY);
+////        return y, x;
+//    }
     public static boolean checkWin(char currentPlayer){
         if (map[0][0] == currentPlayer && map[0][1] == currentPlayer && map[0][2] == currentPlayer) return true;
         if (map[1][0] == currentPlayer && map[1][1] == currentPlayer && map[1][2] == currentPlayer) return true;
@@ -119,6 +138,10 @@ public class Lesson3 {
 
             player2Turn();
             printMap();
+//            if (checkOwnWin(player2)) {
+//                System.out.println("AI WIN!");
+//                break;
+//            }
             if (checkWin(player2)) {
                 System.out.println("AI WIN!");
                 break;
