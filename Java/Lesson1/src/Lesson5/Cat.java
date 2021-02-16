@@ -4,8 +4,8 @@ public class Cat extends Animals{
 
 //    ограничения на действия (бег: кот 200 м.; прыжок: кот 2 м.;
 //    плавание: кот не умеет плавать)
-    public Cat(int run, double jump, int swim) {
-        super(run, jump, swim);
+    public Cat(String name, int run, double jump, int swim) {
+        super(name, run, jump, swim);
         if(run > 200){
             setRun(200);
             System.out.println("Котейка не сможет столько пробежать, он пробежит сколько сможет.");

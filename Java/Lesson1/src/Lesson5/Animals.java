@@ -7,21 +7,23 @@ public class Animals {
     private int run;
     private double jump;
     private int swim;
+    private String name;
 
-    public Animals(int run, double jump, int swim){
+    public Animals(String name, int run, double jump, int swim){
         this.run = run;
         this.jump = jump;
         this.swim = swim;
+        this.name = name;
     }
 
-    public void run(){
-        System.out.println("пробежал" + run);
+    public void run(int run){
+        System.out.println(name + " пробежал(а) " + run);
     }
     public void jump(){
-        System.out.println("пробежал" + jump);
+        System.out.println(name + " пробежал(а) " + jump);
     }
     public void swim(){
-        System.out.println("проплыла" + swim);
+        System.out.println(name + " проплыл(а) " + swim);
     }
 
     public void setRun(int value){

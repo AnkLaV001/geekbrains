@@ -4,8 +4,8 @@ public class Bird extends Animals{
 
 //    ограничения на действия (бег: Птица 5 м.,; прыжок: Птица 0.2 м.;
 //    плавание: птица не умеет плавать)
-    public Bird(int run, double jump, int swim) {
-        super(run, jump, swim);
+    public Bird(String name, int run, double jump, int swim) {
+        super(name, run, jump, swim);
         if(run > 5){
             setRun(5);
             System.out.println("Слишком большое расстояние для птички, она пробежит сколько сможет.");
