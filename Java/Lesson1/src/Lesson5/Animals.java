@@ -16,14 +16,14 @@ public class Animals {
         this.name = name;
     }
 
-    public void run(int run){
-        System.out.println(name + " пробежал(а) " + run);
+    public void run(){
+        System.out.println(name + " пробежал(а) " + run + " метра(ов)");
     }
     public void jump(){
-        System.out.println(name + " пробежал(а) " + jump);
+        System.out.println(name + " пробежал(а) " + jump + " метра(ов)");
     }
     public void swim(){
-        System.out.println(name + " проплыл(а) " + swim);
+        System.out.println(name + " проплыл(а) " + swim + " метра(ов)");
     }
 
     public void setRun(int value){

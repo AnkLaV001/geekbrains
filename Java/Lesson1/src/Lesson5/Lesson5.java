@@ -12,16 +12,20 @@ public class Lesson5 {
 //    может быть 400 м., у другой 600 м.
 
     public static void main(String[] args){
-        Dog dog = new Dog("Пёсик",200, 0.3, 3);
+        DogSmall dogSmall = new DogSmall("Пёсик",400, 0.3, 3);
+        DogBig dogBig = new DogBig("Палкан",600, 0.3, 3);
         Horse horse = new Horse("Лошадка",800, 2.5, 101);
         Bird bird = new Bird("Птичка", 6, 0.2, 0);
         Cat cat = new Cat("Котик", 200, 2, 5);
 
 //        System.out.println("Пёсик " + dog.run());
-        dog.swim();
-        cat.swim();
+        dogSmall.run();
+        dogBig.run();
 
-        bird.run(700);
+        cat.swim();
+        horse.jump();
+
+        bird.run();
         bird.jump();
         bird.swim();
 
