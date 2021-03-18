@@ -1,39 +1,37 @@
-public abstract class Animal {
+package Old;
+public abstract class Runners {
 
     private String name;
     private int maxDistance;
-    private int heightJump;
+    private double heightJump;
 
-    public Animal(){
-
-    };
-
-    public Animal(String name, int maxDistance, int heightJump){
+    public Runners(String name, int maxDistance, double heightJump) {
         this.name = name;
         this.maxDistance = maxDistance;
         this.heightJump = heightJump;
     }
 
-    public abstract void run();
-    public abstract void jump();
-
     public void setName(String name) {
         this.name = name;
     }
-    public void setMaxDistance(int maxDistance){
+
+    public void setMaxDistance(int maxDistance) {
         this.maxDistance = maxDistance;
     }
-    public void setHeightJump(int heightJump){
+
+    public void setHeightJump(int heightJump) {
         this.heightJump = heightJump;
     }
 
     public String getName() {
         return name;
     }
-    public int getMaxDistance(){
+
+    public int getMaxDistance() {
         return maxDistance;
     }
-    public int getHeightJump(){
+
+    public double getHeightJump() {
         return heightJump;
     }
 }

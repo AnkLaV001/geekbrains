@@ -1,16 +1,21 @@
-public class Road {
+public class Road implements Obstruction{
 
     private int lengthRoad;
 
-    public Road(int lengthRoad){
+    public Road(int lengthRoad) {
         this.lengthRoad = lengthRoad;
     }
 
-    public double runRoad(int runMaxDistance){
-
-        }
-
-
+    public int runRoad(Sportsman runner) {
+        return runner.run(lengthRoad);
     }
 
+    public void setLengthRoad(int lengthRoad) {
+        this.lengthRoad = lengthRoad;
+    }
+
+    @Override
+    public double getSize() {
+        return lengthRoad;
+    }
 }

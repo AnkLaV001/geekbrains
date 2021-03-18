@@ -1,21 +1,57 @@
-public class Human extends Animal implements RunRoad{
+public class Human implements Sportsman {
 
-    public Human(String name, int MaxDistance, int heightJump){
-        super(name, MaxDistance, heightJump);
-    }
+    private String name;
+    private int maxDistance;
+    private double heightJump;
 
-    @Override
-    public void run() {
-        System.out.println("Человек пробежал");
-    }
-
-    @Override
-    public void jump() {
-        System.out.println("Человек прыгнул");
+    public Human(String name, int maxDistance, double heightJump) {
+        this.name = name;
+        this.maxDistance = maxDistance;
+        this.heightJump = heightJump;
     }
 
     @Override
     public int run(int length) {
-        return 0;
+        if (this.maxDistance >= length) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+
+    @Override
+    public int jump(double height) {
+        if (this.heightJump >= height) {
+            return 1;
+        } else {
+            return 0;
+        }
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @Override
+    public int getMaxDistance() {
+        return maxDistance;
+    }
+
+    public void setMaxDistance(int maxDistance) {
+        this.maxDistance = maxDistance;
+    }
+
+    @Override
+    public double getHeightJump() {
+        return heightJump;
+    }
+
+    public void setHeightJump(double heightJump) {
+        this.heightJump = heightJump;
     }
 }

@@ -1,17 +1,17 @@
-public class Wall implements Obstruction{
+package Old;
 
+public class Wall {
     private double heightWall;
 
     public Wall(double heightWall) {
         this.heightWall = heightWall;
     }
 
-    public int jumpWall(Sportsman jumpers) {
+    public int jumpWall(CanJump jumpers) {
         return jumpers.jump(heightWall);
     }
 
-    @Override
-    public double getSize() {
+    public double getHeightWall() {
         return heightWall;
     }
 
