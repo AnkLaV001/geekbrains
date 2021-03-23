@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="начал 7ДЗ" />
+    <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="начал 7ДЗ">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCore/Lesson2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore/Lesson2/src/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,7 @@
       <recent name="Lesson7.Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunGame">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson4.src.Lesson4" />
       <module name="geekbrains.git" />
@@ -62,6 +65,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="geekbrains.git" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RunGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Lesson7.online.RunGame" />
       <module name="geekbrains.git" />
@@ -77,6 +87,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.RunGame" />
         <item itemvalue="Application.Lesson5" />
         <item itemvalue="Application.Lesson4" />
