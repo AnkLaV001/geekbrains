@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="начал 7ДЗ">
+    <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="Core HW3">
+      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Orange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_03_2021_8_18_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_03_2021_8_18__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCore/Lesson2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore/Lesson2/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lesson1/Lesson1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/geekbrains.git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains.git.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -18,7 +35,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1oRG8akcGozt3kF0GLc2SgOfbMo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -28,6 +56,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaCore/Lesson2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -38,16 +70,17 @@
       <recent name="Lesson7.Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Lesson4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson4.src.Lesson4" />
-      <module name="geekbrains.git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson4.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+  <component name="RunManager" selected="Application.Box">
+    <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Box" />
+      <module name="Lesson3" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cube" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Cube" />
+      <module name="Lesson3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -87,10 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Box" />
+        <item itemvalue="Application.Cube" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RunGame" />
         <item itemvalue="Application.Lesson5" />
-        <item itemvalue="Application.Lesson4" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614231617051</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Core HW3">
+      <created>1616513645819</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616513645819</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -158,6 +199,7 @@
     <MESSAGE value="18,02,21" />
     <MESSAGE value="Lesson7" />
     <MESSAGE value="начал 7ДЗ" />
-    <option name="LAST_COMMIT_MESSAGE" value="начал 7ДЗ" />
+    <MESSAGE value="Core HW3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Core HW3" />
   </component>
 </project>
