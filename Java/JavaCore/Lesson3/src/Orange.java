@@ -1,11 +1,5 @@
-public class Orange extends Fruit{
-    private float orangeWeight = 1.5f;
-
-    public Orange(int quantityFruit) {
-        super(quantityFruit);
-    }
-
-    public float getOrangeWeight() {
-        return orangeWeight;
+public class Orange extends Fruit {
+    public Orange(float quantityFruit, float weightFruit) {
+        super(quantityFruit, weightFruit);
     }
 }

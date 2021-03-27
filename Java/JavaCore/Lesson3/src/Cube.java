@@ -16,6 +16,7 @@ public class Cube<T extends String> {
         cube.add("4");
         cube.add("5");
         cube.add("6");
+        cube.add("7");
 
         System.out.println(cube);
 
