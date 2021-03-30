@@ -1,5 +1,6 @@
 public class Orange extends Fruit {
-    public Orange(float quantityFruit, float weightFruit) {
-        super(quantityFruit, weightFruit);
+
+    public Orange() {
+        super(1.5f);
     }
 }

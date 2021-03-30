@@ -1,18 +1,8 @@
 public abstract class Fruit {
-    private float quantityFruit;
     private float weightFruit;
 
-    public Fruit(float quantityFruit, float weightFruit) {
-        this.quantityFruit = quantityFruit;
+    public Fruit(float weightFruit) {
         this.weightFruit = weightFruit;
-    }
-
-    public float getQuantityFruit() {
-        return quantityFruit;
-    }
-
-    public void setQuantityFruit(float quantityFruit) {
-        this.quantityFruit = quantityFruit;
     }
 
     public float getWeightFruit() {

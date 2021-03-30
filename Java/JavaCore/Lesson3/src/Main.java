@@ -1,6 +1,20 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Main {
 
     public static void main(String[] args) {
+
+//        ArrayList<Apple> appleBox = new ArrayList<>(18);
+//        ArrayList<Orange> orangeBox = new ArrayList<>(12);
+        Box<Apple> appleBox1 = new Box<Apple>(new ArrayList<Apple>(Arrays.asList(new Apple[18])));
+        Box<Orange> orangeBox1 = new Box<Orange>(new ArrayList<Orange>(Arrays.asList(new Orange[12])));
+        System.out.println("Вес коробки с яблоками: " + appleBox1.getWeight());
+        System.out.println("Вес коробки с опельсинами: " + orangeBox1.getWeight());
+        System.out.println("Сравнение веса коробок: " + appleBox1.compareTo(orangeBox1));
+        appleBox1.addFruits(new Apple(), 6);
+
+
 
     }
 }
