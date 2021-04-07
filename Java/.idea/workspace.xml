@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="HW5">
-      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson6/src/WeatherAoi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="HW6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,10 +42,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/okhttp-4.9.1.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/okhttp-4.8.1.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -172,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617636263872</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="HW6">
+      <created>1617786311306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617786311306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,7 +203,8 @@
     <MESSAGE value="начал 7ДЗ" />
     <MESSAGE value="Core HW3" />
     <MESSAGE value="HW5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW5" />
+    <MESSAGE value="HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
