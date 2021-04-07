@@ -34,10 +34,8 @@ public class AppData_new {
     public void readCSV (int[][] dataArray){
         ArrayList<AppData_new> appData_new = new ArrayList<>();
         try(BufferedReader bufferedReader = new BufferedReader(new FileReader("lesson5.scv"))) {
-            String tempString;
-            while ((tempString = bufferedReader.readLine()) != null){
-                String[] headers = tempString.split(";");
-            }
+            String[] headers = bufferedReader.readLine().split(";");
+
             String tempIntString;
             int[][] intArray = new int[2][3];
             int i=0;
@@ -48,7 +46,7 @@ public class AppData_new {
                 intArray[i][1] = Integer.parseInt(valuesArray[1]);
                 intArray[i][2] = Integer.parseInt(valuesArray[2]);
             }
-            System.out.println(tempString + tempIntString);
+            System.out.println(headers + tempIntString);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {

@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="Core HW3">
-      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Apple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Fruit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaCore/Lesson3/src/Orange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_03_2021_8_18_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_17_03_2021_8_18__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lesson1/Lesson1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/geekbrains.git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/geekbrains.git.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaCore/Lesson5/src/AppData_new.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore/Lesson5/src/AppData_new.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaCore/Lesson2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaCore/Lesson5" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,7 +61,7 @@
       <recent name="Lesson7.Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Box">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Box" />
       <module name="Lesson3" />
@@ -85,15 +76,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Lesson5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson5.Lesson5" />
-      <module name="geekbrains.git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Lesson5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Box" />
         <item itemvalue="Application.Cube" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RunGame" />
-        <item itemvalue="Application.Lesson5" />
       </list>
     </recent_temporary>
   </component>
