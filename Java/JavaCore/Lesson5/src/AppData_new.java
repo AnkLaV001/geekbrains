@@ -8,6 +8,7 @@ public class AppData_new {
 
     public AppData_new(String[] header, int[][] data) {
         this.data = data;
+        this.header = header;
     }
 
     @Override
@@ -40,13 +41,15 @@ public class AppData_new {
             int[][] intArray = new int[2][3];
             int i=0;
             while ((tempIntString = bufferedReader.readLine()) !=null){
-                String[] valuesArray = tempIntString.split(";");
-                i++;
+                String[] valuesArray = tempIntString.split(",");
+
                 intArray[i][0] = Integer.parseInt(valuesArray[0]);
                 intArray[i][1] = Integer.parseInt(valuesArray[1]);
                 intArray[i][2] = Integer.parseInt(valuesArray[2]);
+                i++;
             }
-            System.out.println(headers + tempIntString);
+            AppData_new appData_new1 = new AppData_new(headers,intArray);
+            System.out.println(appData_new1);
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
