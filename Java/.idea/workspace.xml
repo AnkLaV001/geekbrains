@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="Core HW3">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="bae0fec4-ee99-4821-aedd-a4d320e220c2" name="Default Changelist" comment="HW6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaCore/Lesson5/src/AppData_new.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaCore/Lesson5/src/AppData_new.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$/.." value="master" />
+        <entry key="$PROJECT_DIR$/.." value="Lesson6" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -44,10 +42,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaCore/Lesson5" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Загрузки/okhttp-4.8.1.jar" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,7 +63,7 @@
       <recent name="Lesson7.Homework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.WeatherAoi">
     <configuration name="Box" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Box" />
       <module name="Lesson3" />
@@ -90,26 +92,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lesson7.online.RunGame" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="geekbrains.git" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson7.online.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherAoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeatherAoi" />
+      <module name="Lesson6" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WeatherAoi" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Box" />
         <item itemvalue="Application.Cube" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RunGame" />
+        <item itemvalue="Application.Main" />r
       </list>
     </recent_temporary>
   </component>
@@ -164,7 +167,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616513645819</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="HW5">
+      <created>1617636263871</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1617636263872</updated>
+    </task>
+    <task id="LOCAL-00008" summary="HW6">
+      <created>1617786311306</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617786311306</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +202,18 @@
     <MESSAGE value="Lesson7" />
     <MESSAGE value="начал 7ДЗ" />
     <MESSAGE value="Core HW3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Core HW3" />
+    <MESSAGE value="HW5" />
+    <MESSAGE value="HW6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
